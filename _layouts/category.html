@@ -11,7 +11,7 @@ layout: default
                 <span class="breadcrumb-separator">/</span>
                 <a href="{{ '/categories' | relative_url }}" class="breadcrumb-link">{{ t.categories.breadcrumb_categories }}</a>
             </div>
-            <h1 class="section-title">{{ page.category | replace: '-', ' ' | capitalize }}</h1>
+            <h1 class="section-title">{{ page.category | replace: '-', ' ' | capitalize | escape }}</h1>
             <p class="blog-description">
                 {{ page.description | default: t.categories.posts_in_category }}
             </p>
@@ -27,10 +27,10 @@ layout: default
                             {{ post.date | localized_date }}
                         </time>
                         <h2 class="post-card-title">
-                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                         </h2>
                         {% if post.subtitle %}
-                        <p class="post-card-excerpt">{{ post.subtitle }}</p>
+                        <p class="post-card-excerpt">{{ post.subtitle | escape }}</p>
                         {% elsif post.excerpt %}
                         <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
                         {% endif %}

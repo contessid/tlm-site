@@ -32,7 +32,7 @@ hero:
 # Blog / Sessions section
 blog:
   title: Sessions
-  description: Past journal club sessions — papers, slides, and lab repositories.
+  description: Past journal club sessions - papers, slides, and lab repositories.
 
 # Table of Contents
 table_of_contents:

@@ -19,7 +19,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "{{ page.title }}",
+      "name": "{{ page.title | escape }}",
       "item": "{{ page.url | absolute_url }}"
     }
   ]

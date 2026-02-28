@@ -6,9 +6,9 @@ layout: default
 <section class="blog-section">
     <div class="blog-container">
         <div class="blog-header">
-            <h1 class="section-title">{{ site.blog.title }}</h1>
+            <h1 class="section-title">{{ site.blog.title | escape }}</h1>
             <p class="blog-description">
-                {{ site.blog.description }}
+                {{ site.blog.description | escape }}
             </p>
         </div>
 
@@ -48,10 +48,10 @@ layout: default
                         {{ post.date | localized_date }}
                     </time>
                     <h2 class="post-card-title">
-                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                     </h2>
                     {% if post.excerpt %}
-                    <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                    <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 | escape }}</p>
                     {% endif %}
                     <div class="post-card-footer">
                         {% if post.categories %}

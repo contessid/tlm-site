@@ -11,3 +11,7 @@ Gemfile.lock
 
 # Private context (not published)
 context/
+
+# Claude Code local files
+.claude/
+CLAUDE.md

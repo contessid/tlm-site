@@ -22,9 +22,9 @@ layout: default
             {% endfor %}
         </div>
         {% endif %}
-        <h1 class="post-hero-title">{{ page.title }}</h1>
+        <h1 class="post-hero-title">{{ page.title | escape }}</h1>
         {% if page.subtitle %}
-        <p class="post-hero-subtitle">{{ page.subtitle }}</p>
+        <p class="post-hero-subtitle">{{ page.subtitle | escape }}</p>
         {% endif %}
         {% capture reading_time %}{{ content | reading_time }}{% endcapture %}
         <span class="post-hero-reading-time">{{ reading_time }} {% if reading_time == '1' %}{{ t.post.minute_singular }}{% else %}{{ t.post.minute_plural }}{% endif %} {{ t.post.of_reading }}</span>
@@ -47,9 +47,9 @@ layout: default
                 {% endfor %}
             </div>
             {% endif %}
-            <h1 class="post-title">{{ page.title }}</h1>
+            <h1 class="post-title">{{ page.title | escape }}</h1>
             {% if page.subtitle %}
-            <p class="post-subtitle">{{ page.subtitle }}</p>
+            <p class="post-subtitle">{{ page.subtitle | escape }}</p>
             {% endif %}
             <div class="post-meta">
                 <br />
@@ -69,7 +69,7 @@ layout: default
             <div class="post-author">
                 <div class="author-info">
                     <p class="author-name">{{ site.author.name }}</p>
-                    <p class="author-bio">{{ site.description }}</p>
+                    <p class="author-bio">{{ site.description | escape }}</p>
                 </div>
             </div>
 
@@ -79,13 +79,13 @@ layout: default
                 {% if page.previous.url %}
                 <a href="{{ page.previous.url | relative_url }}" class="nav-post nav-prev">
                     <span class="nav-label">{{ t.post.previous_post }}</span>
-                    <span class="nav-title">{{ page.previous.title }}</span>
+                    <span class="nav-title">{{ page.previous.title | escape }}</span>
                 </a>
                 {% endif %}
                 {% if page.next.url %}
                 <a href="{{ page.next.url | relative_url }}" class="nav-post nav-next">
                     <span class="nav-label">{{ t.post.next_post }}</span>
-                    <span class="nav-title">{{ page.next.title }}</span>
+                    <span class="nav-title">{{ page.next.title | escape }}</span>
                 </a>
                 {% endif %}
             </div>

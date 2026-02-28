@@ -9,7 +9,7 @@
                 <a href="{{ '/labs' | relative_url }}">Labs</a>
                 <a href="{{ '/surveys' | relative_url }}">Surveys</a>
                 {% for link in site.contact.links %}
-                <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
+                <a href="{{ link.url | escape }}" target="_blank" rel="noopener noreferrer">{{ link.name | escape }}</a>
                 {% endfor %}
             </nav>
         </div>
