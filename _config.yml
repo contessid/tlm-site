@@ -1,0 +1,85 @@
+# Site settings
+title: "Trento Local Minimum"
+subtitle: "ML Journal Club"
+description: "A technical machine learning journal club based in Trento, Italy. Monthly sessions with invited speakers and hands-on labs."
+baseurl: "/tlm-site"
+url: "https://contessid.github.io"
+lang: en
+
+# Author / Organizer
+author:
+  name: Daniele Contessi
+  email: "" # kept private
+  github: https://github.com/contessid
+
+# Navigation logo
+nav_logo:
+  type: text
+  text: TLM
+
+# Hero section (home)
+hero:
+  name: Trento Local Minimum
+  role: ML Journal Club
+  subtitle: BIC Trento, Via dei Solteri, 38
+  tagline: >
+    A monthly appointment for ML people in Trento. Each session features an 
+    invited speaker presenting a topic, followed by a hands-on coding lab.
+  # description: >
+  #   A monthly appointment for ML people in Trento. Each session features an
+  #   invited speaker presenting a topic, followed by a hands-on coding lab.
+
+# Blog / Sessions section
+blog:
+  title: Sessions
+  description: Past journal club sessions — papers, slides, and lab repositories.
+
+# Table of Contents
+table_of_contents:
+  enabled: true
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 10
+paginate_path: "/sessions/page:num/"
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
+# Social (contact page)
+contact:
+  title: Contact & Info
+  description: Get in touch or follow the journal club.
+  links:
+    - name: GitHub
+      url: https://github.com/contessid
+      type: github
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CLAUDE.md
+  - node_modules
+  - context

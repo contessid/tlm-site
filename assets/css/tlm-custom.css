@@ -1,0 +1,406 @@
+/* =============================================
+   TLM - Trento Local Minimum — custom styles
+   Override the SexyJekyll theme
+   ============================================= */
+
+/* --- Hide "Skip to main content" link --- */
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-to-content:focus {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  z-index: 9999;
+  background: var(--bg-primary, #0f0f23);
+  color: var(--text-primary, #fff);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+/* --- Hero sub-elements --- */
+.hero-role {
+  display: block;
+  font-family: var(--font-heading, 'Sora', system-ui, sans-serif);
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  font-weight: 700;
+  color: var(--text-primary, #fff);
+  margin-bottom: 0.15rem;
+}
+
+.hero-subtitle {
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  color: var(--text-secondary, #e0e0ff);
+  margin-bottom: 0.1rem;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+.hero-tagline {
+  font-style: normal;
+  font-size: clamp(0.85rem, 1.6vw, 1rem);
+  color: var(--text-secondary, #e0e0ff);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  opacity: 0.8;
+  margin-bottom: 0.25rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.hero-description {
+  max-width: 600px;
+  font-size: clamp(0.85rem, 1.6vw, 1rem);
+  color: var(--text-secondary, #e0e0ff);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+/* --- Upcoming sessions section --- */
+.upcoming-sessions {
+  margin: 3rem auto;
+  max-width: 1400px;
+  padding: 0 2rem;
+}
+
+.upcoming-sessions h2 {
+  margin-bottom: 0.25rem;
+}
+
+.upcoming-subtitle {
+  color: var(--text-tertiary, #a0a0d0);
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+}
+
+/* --- Session table (used in home and labs) --- */
+.session-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.session-table th {
+  text-align: left;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 2px solid var(--border, rgba(168,85,247,0.2));
+  font-weight: 600;
+}
+
+.session-table td {
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--border, rgba(168,85,247,0.1));
+  vertical-align: top;
+}
+
+.session-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* --- Type badges --- */
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.badge-talk {
+  background-color: #1e3a5f;
+  color: #93c5fd;
+}
+
+.badge-lab {
+  background-color: #14532d;
+  color: #86efac;
+}
+
+/* --- Person cards --- */
+.person-card {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background: var(--bg-secondary, rgba(20,20,40,0.7));
+  border: 1px solid var(--border, rgba(168,85,247,0.2));
+  border-radius: var(--radius-md, 1rem);
+}
+
+.person-card--organizer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.person-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border, rgba(168,85,247,0.3));
+  flex-shrink: 0;
+}
+
+.person-info {
+  flex: 1;
+}
+
+.person-card h3 {
+  font-family: var(--font-heading, 'Sora', system-ui, sans-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary, #fff);
+  margin: 0 0 0.2rem;
+}
+
+.person-role {
+  font-size: 0.85rem;
+  color: var(--text-tertiary, #a0a0d0);
+  margin: 0 0 0.6rem;
+}
+
+.person-date {
+  font-size: 0.8rem;
+  color: var(--text-tertiary, #a0a0d0);
+  margin-left: 0.5rem;
+}
+
+.person-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.person-links a {
+  color: var(--color-purple, #a855f7);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.person-links a:hover {
+  color: var(--accent-hover, #c084fc);
+}
+
+/* --- Markdown tables (labs, etc.) --- */
+.page-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  margin: 1.5rem 0;
+}
+
+.page-container th {
+  text-align: left;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 2px solid var(--border, rgba(168,85,247,0.2));
+  font-weight: 600;
+  color: var(--text-primary, #fff);
+}
+
+.page-container td {
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--border, rgba(168,85,247,0.1));
+  color: var(--text-secondary, #e0e0ff);
+}
+
+.page-container em {
+  color: var(--text-tertiary, #a0a0d0);
+}
+
+/* --- Page content container --- */
+.page-content {
+  min-height: 60vh;
+}
+
+.page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.page-container h1 {
+  font-family: var(--font-heading, 'Sora', system-ui, sans-serif);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, var(--color-purple, #a855f7) 0%, var(--color-pink, #ec4899) 25%, var(--color-cyan, #06b6d4) 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.page-container h2 {
+  font-family: var(--font-heading, 'Sora', system-ui, sans-serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary, #fff);
+}
+
+.page-container p {
+  color: var(--text-secondary, #e0e0ff);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.page-container strong {
+  color: var(--text-primary, #fff);
+}
+
+.page-container a {
+  color: var(--color-purple, #a855f7);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.page-container a:hover {
+  color: var(--accent-hover, #c084fc);
+}
+
+.page-container ul, .page-container ol {
+  color: var(--text-secondary, #e0e0ff);
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-container li {
+  margin-bottom: 0.4rem;
+  line-height: 1.7;
+}
+
+/* --- About page cards --- */
+.about-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.about-card {
+  background: var(--bg-secondary, rgba(20,20,40,0.7));
+  border: 1px solid var(--border, rgba(168,85,247,0.2));
+  border-radius: var(--radius-md, 1rem);
+  padding: 1.5rem;
+}
+
+.about-card h3 {
+  font-family: var(--font-heading, 'Sora', system-ui, sans-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary, #fff);
+  margin-bottom: 0.5rem;
+}
+
+.about-card p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+/* --- Survey embed --- */
+.survey-frame {
+  background: #fff;
+  border-radius: var(--radius-md, 1rem);
+  overflow: hidden;
+  border: 1px solid var(--border, rgba(168,85,247,0.2));
+  margin-top: 1rem;
+}
+
+.survey-frame iframe {
+  display: block;
+  border: none;
+}
+
+/* --- Footer --- */
+.footer {
+  border-top: 1px solid var(--border, rgba(168,85,247,0.2));
+  padding: 2rem 0 1.5rem;
+  margin-top: 4rem;
+}
+
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.footer-title {
+  font-family: var(--font-heading, 'Sora', system-ui, sans-serif);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-primary, #fff);
+  margin: 0;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  color: var(--text-secondary, #e0e0ff);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer-nav a:hover {
+  color: var(--color-purple, #a855f7);
+}
+
+.footer-description {
+  font-size: 0.85rem;
+  color: var(--text-tertiary, #a0a0d0);
+  line-height: 1.5;
+  margin: 0 0 1.5rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border, rgba(168,85,247,0.15));
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-tertiary, #a0a0d0);
+}
+
+/* --- Mobile --- */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 50vh;
+    padding: 2rem 1rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .page-container {
+    padding: 2rem 1rem;
+  }
+
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .person-card--organizer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

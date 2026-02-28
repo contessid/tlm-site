@@ -1,0 +1,17 @@
+# People involved in TLM - Trento Local Minimum
+speakers:
+  # Past invited speakers — add one entry per session
+  # - name: "Jane Smith"
+  #   affiliation: "University of Trento"
+  #   talk: "Paper Title Here"
+  #   date: "2025-03-06"
+  #   slides_url: ""
+  #   session_url: "/sessions/2025-03-session"
+
+organizers:
+  - name: Daniele Contessi
+    role: Founder & Organizer
+    github: https://github.com/contessid
+    linkedin: https://www.linkedin.com/in/daniele-contessi-020534167
+    image: /assets/img/Social_squared.JPG
+    bio: "Organizer of Trento Local Minimum."

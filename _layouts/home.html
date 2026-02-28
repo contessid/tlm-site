@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<!-- Hero Section with Trento banner background -->
+<main id="main-content">
+<section id="hero" class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.25)), url('{{ '/assets/img/trento.jpg' | relative_url }}');">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-name">{{ site.hero.name }}</span>
+                <span class="hero-role">{{ site.hero.role }}</span>
+            </h1>
+            <p class="hero-subtitle">
+                {{ site.hero.subtitle }}
+            </p>
+            <p class="hero-tagline">
+                {{ site.hero.tagline }}
+            </p>
+            <p class="hero-description">
+                {{ site.hero.description }}
+            </p>
+        </div>
+    </div>
+</section>
+
+{{ content }}
+
+</main>

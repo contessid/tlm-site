@@ -1,0 +1,36 @@
+# Upcoming sessions for TLM - Trento Local Minimum
+# Edit this file to update the schedule on the homepage.
+# Each entry has: date, type (talk/lab), title, and optional fields.
+#
+# type: talk  → invited speaker session
+# type: lab   → hands-on coding session
+
+sessions:
+  - date: "TBD"
+    type: talk
+    title: "TBD"
+    speaker: ""
+    paper: ""
+    paper_url: ""
+    notes: "Speaker to be announced"
+
+  - date: "TBD"
+    type: lab
+    title: "TBD"
+    repo_url: ""
+    notes: "Lab topic to be announced"
+
+  # --- Add future sessions below ---
+  # - date: 2025-05-08
+  #   type: talk
+  #   title: "Attention Is All You Need — revisited"
+  #   speaker: "Mario Rossi"
+  #   paper: "Vaswani et al., 2017"
+  #   paper_url: "https://arxiv.org/abs/1706.03762"
+  #   notes: ""
+  #
+  # - date: 2025-05-08
+  #   type: lab
+  #   title: "Implement a Transformer from scratch"
+  #   repo_url: "https://github.com/contessid/tlm-lab-2025-05"
+  #   notes: "Bring your laptop"

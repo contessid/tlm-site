@@ -1,0 +1,21 @@
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-row">
+            <p class="footer-title">{{ site.title }}</p>
+            <nav class="footer-nav">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/about' | relative_url }}">About</a>
+                <a href="{{ '/people' | relative_url }}">People</a>
+                <a href="{{ '/labs' | relative_url }}">Labs</a>
+                <a href="{{ '/surveys' | relative_url }}">Surveys</a>
+                {% for link in site.contact.links %}
+                <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
+                {% endfor %}
+            </nav>
+        </div>
+        <p class="footer-description">{{ site.description }}</p>
+        <div class="footer-bottom">
+            <span>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}</span>
+        </div>
+    </div>
+</footer>
