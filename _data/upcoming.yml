@@ -6,17 +6,31 @@
 # type: lab   → hands-on coding session
 
 sessions:
-  - date: "TBD"
+  - date: "TBD March"
     type: talk
-    title: "TBD"
+    title: "TBD - Time series forecasting with deep learning"
     speaker: ""
     paper: ""
     paper_url: ""
     notes: "Speaker to be announced"
 
-  - date: "TBD"
+  - date: "TBD March"
     type: lab
-    title: "TBD"
+    title: "TBD - Time series forecasting with deep learning"
+    repo_url: ""
+    notes: "Lab topic to be announced"
+
+  - date: "TBD April"
+    type: talk
+    title: "TBD - prepare dataset for LLM or VLM"
+    speaker: ""
+    paper: ""
+    paper_url: ""
+    notes: "Speaker to be announced"
+
+  - date: "TBD April"
+    type: lab
+    title: "TBD - prompt engineering and tracking"
     repo_url: ""
     notes: "Lab topic to be announced"
 

@@ -381,16 +381,64 @@
 
 /* --- Mobile --- */
 @media (max-width: 768px) {
+  /* Nav: smaller gaps, wrap if needed */
+  .nav-container {
+    padding: 1rem;
+  }
+
+  .nav-links {
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  /* Hero: full width, tighter */
   .hero {
     min-height: 50vh;
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
   }
 
-  .footer-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+  .hero-name {
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
   }
 
+  /* Sessions: stack as cards instead of table */
+  .session-table thead {
+    display: none;
+  }
+
+  .session-table,
+  .session-table tbody,
+  .session-table tr,
+  .session-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .session-table tr {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border, rgba(168,85,247,0.1));
+  }
+
+  .session-table td {
+    padding: 0.15rem 0;
+    border-bottom: none;
+  }
+
+  .session-table td:first-child {
+    font-weight: 600;
+    color: var(--text-tertiary, #a0a0d0);
+    font-size: 0.85rem;
+  }
+
+  .upcoming-sessions {
+    padding: 0 1rem;
+  }
+
+  /* Pages */
   .page-container {
     padding: 2rem 1rem;
   }
@@ -402,5 +450,16 @@
   .person-card--organizer {
     flex-direction: column;
     text-align: center;
+  }
+
+  /* Footer */
+  .footer-row {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+
+  .footer-nav {
+    gap: 1rem;
   }
 }

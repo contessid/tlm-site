@@ -6,7 +6,7 @@ permalink: /labs/
 
 # Labs
 
-Each TLM session includes a hands-on coding lab — a structured challenge hosted on GitHub where participants experiment with ML concepts from the talk.
+Each TLM session includes a hands-on coding lab where participants experiment with ML concepts from the talk or related topics.
 
 Labs are designed to be approachable in ~1 hour during the session, but repositories stay open so you can keep experimenting.
 
@@ -19,7 +19,7 @@ Labs are designed to be approachable in ~1 hour during the session, but reposito
   </div>
   <div class="about-card">
     <h3>Dataset</h3>
-    <p>Included in the repo or with download instructions — everything you need to get going.</p>
+    <p>Included in the repo or with download instructions.</p>
   </div>
   <div class="about-card">
     <h3>Challenge description</h3>
@@ -27,7 +27,7 @@ Labs are designed to be approachable in ~1 hour during the session, but reposito
   </div>
   <div class="about-card">
     <h3>Leaderboard</h3>
-    <p>Track results and compare approaches — Kaggle-lite with more whiteboard math.</p>
+    <p>Track results and compare approaches.</p>
   </div>
 </div>
 
@@ -38,8 +38,8 @@ Labs are designed to be approachable in ~1 hour during the session, but reposito
 ## Past Labs
 
 | Date | Topic | Repository | Best Result |
-|------|-------|------------|-------------|
-| — | — | — | — |
+| ---- | ----- | ---------- | ----------- |
+| —    | —     | —          | —           |
 
 <!--
 To add a past lab, replace the placeholder row:

@@ -6,9 +6,9 @@ permalink: /about/
 
 # About TLM
 
-**Trento Local Minimum** is a monthly machine learning journal club for researchers, engineers, and practitioners based in Trento, Italy.
+**Trento Local Minimum** is a monthly machine learning journal club for researchers, engineers, and practitioners based in Trento.
 
-The name is a nod to the optimization landscape we all navigate — sometimes you get stuck, and that's okay, as long as you're in good company.
+The name is related to the optimization landscape we all navigate: sometimes you can get stuck, and that's okay, as long as you're in good company.
 
 ## How it works
 
@@ -17,19 +17,15 @@ Each session is split into two parts:
 <div class="about-cards">
   <div class="about-card">
     <h3>Invited Talk (~1h)</h3>
-    <p>A guest speaker presents a recent or landmark ML paper in depth. We aim for technical rigor: proofs, architecture details, experimental results, and open questions.</p>
+    <p>A guest speaker presents a recent or landmark topic in ML. We aim for technical rigor: proofs, architecture details, experimental results, and open questions.</p>
   </div>
   <div class="about-card">
     <h3>Hands-on Lab (~1h)</h3>
-    <p>A coding challenge hosted on GitHub where participants experiment with the ideas from the talk. Think Kaggle-lite — starter notebooks, datasets, and a leaderboard.</p>
+    <p>A coding game where participants experiment.</p>
   </div>
 </div>
 
-Sessions happen roughly once a month with ~15 participants.
-
-## Who is it for?
-
-TLM is designed for people comfortable with the technical side of ML — graduate students, researchers, and engineers who want to go beyond high-level summaries and actually engage with the material.
+Sessions happen roughly once a month.
 
 ## Get involved
 

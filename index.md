@@ -21,7 +21,7 @@ permalink: /
     <tbody>
       {% for s in site.data.upcoming.sessions %}
       <tr class="session-row session-{{ s.type | escape }}">
-        <td>{{ s.date | date: "%b %d, %Y" }}</td>
+        <td>{% if s.date contains "TBD" %}{{ s.date }}{% else %}{{ s.date | date: "%b %d, %Y" }}{% endif %}</td>
         <td>
           {% if s.type == "talk" %}
             <span class="badge badge-talk">🎤 Talk</span>
