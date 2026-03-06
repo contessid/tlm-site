@@ -10,6 +10,8 @@ Each TLM session includes a hands-on coding lab where participants experiment wi
 
 Labs are designed to be approachable in ~1 hour during the session, but repositories stay open so you can keep experimenting.
 
+All lab repositories are hosted on the [TLM GitHub organization](https://github.com/tlm-journalclub-org).
+
 ## What's in a lab?
 
 <div class="about-cards">
@@ -33,7 +35,9 @@ Labs are designed to be approachable in ~1 hour during the session, but reposito
 
 ## Active Lab
 
-*Watch this space — the first lab will be announced with the first session.*
+| Date | Topic | Repository |
+| ---- | ----- | ---------- |
+| Mar 2026 | LLM Lego: playing in the embeddings space | [LLMlego](https://github.com/tlm-journalclub-org/LLMlego) |
 
 ## Past Labs
 

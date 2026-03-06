@@ -18,8 +18,8 @@ sessions:
   - date: 2026-03-26
     time: "19-21"
     type: lab
-    title: "TBD - LLM Lego: playing in the embeddings space"
-    repo_url: ""
+    title: "LLM Lego: playing in the embeddings space"
+    repo_url: "https://github.com/tlm-journalclub-org/LLMlego"
     speaker: "Daniele Contessi"
     # notes: "Lab topic to be announced"
 
