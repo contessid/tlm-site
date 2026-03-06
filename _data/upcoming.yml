@@ -6,21 +6,25 @@
 # type: lab   → hands-on coding session
 
 sessions:
-  - date: "TBD March"
+  - date: 2026-03-26
+    time: "19-21"
     type: talk
-    title: "TBD - Time series forecasting with deep learning"
-    speaker: ""
+    title: "TBD - LLM advanced"
+    speaker: "Seyed Mahed Mousavi (DISI)"
     paper: ""
     paper_url: ""
-    notes: "Speaker to be announced"
+    # notes: "Speaker to be announced"
 
-  - date: "TBD March"
+  - date: 2026-03-26
+    time: "19-21"
     type: lab
-    title: "TBD - Time series forecasting with deep learning"
+    title: "TBD - LLM Lego: playing in the embeddings space"
     repo_url: ""
-    notes: "Lab topic to be announced"
+    speaker: "Daniele Contessi"
+    # notes: "Lab topic to be announced"
 
   - date: "TBD April"
+    # time: "19-21"
     type: talk
     title: "TBD - prepare dataset for LLM or VLM"
     speaker: ""
@@ -29,6 +33,7 @@ sessions:
     notes: "Speaker to be announced"
 
   - date: "TBD April"
+    # time: "19-21"
     type: lab
     title: "TBD - prompt engineering and tracking"
     repo_url: ""

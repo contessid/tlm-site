@@ -1,4 +1,11 @@
 # People involved in TLM - Trento Local Minimum
+next_speakers:
+  # Upcoming speakers — move to "speakers" after their session
+  # - name: "Jane Smith"
+  #   affiliation: "University of Trento"
+  #   talk: "Paper Title Here"
+  #   date: "2025-05-08"
+
 speakers:
   # Past invited speakers — add one entry per session
   # - name: "Jane Smith"

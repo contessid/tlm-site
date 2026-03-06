@@ -21,7 +21,7 @@ permalink: /
     <tbody>
       {% for s in site.data.upcoming.sessions %}
       <tr class="session-row session-{{ s.type | escape }}">
-        <td>{% if s.date contains "TBD" %}{{ s.date }}{% else %}{{ s.date | date: "%b %d, %Y" }}{% endif %}</td>
+        <td>{% if s.date contains "TBD" %}{{ s.date }}{% else %}{{ s.date | date: "%b %d, %Y" }}{% endif %}{% if s.time %} <small>({{ s.time }})</small>{% endif %}</td>
         <td>
           {% if s.type == "talk" %}
             <span class="badge badge-talk">🎤 Talk</span>
@@ -30,9 +30,9 @@ permalink: /
           {% endif %}
         </td>
         <td>
-          {{ s.title | escape }}
+          <strong>{{ s.title | escape }}</strong>
           {% if s.speaker and s.speaker != "" %}
-            <br><small>Speaker: {{ s.speaker | escape }}</small>
+            <br><small>{{ s.speaker | escape }}</small>
           {% endif %}
           {% if s.paper and s.paper != "" %}
             <br><small>

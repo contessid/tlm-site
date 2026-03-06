@@ -8,6 +8,7 @@ permalink: /surveys/
 
 We use surveys to keep the journal club running smoothly.
 
+<!--
 ## When can you meet?
 
 Help us find the best day and time for the next session.
@@ -23,6 +24,7 @@ Help us find the best day and time for the next session.
   Loading…
 </iframe>
 </div>
+-->
 
 ## Propose a paper or topic
 
