@@ -1,10 +1,12 @@
 # People involved in TLM - Trento Local Minimum
 next_speakers:
   # Upcoming speakers — move to "speakers" after their session
-  # - name: "Jane Smith"
-  #   affiliation: "University of Trento"
-  #   talk: "Paper Title Here"
-  #   date: "2025-05-08"
+  - name: "Mahed Mousavi"
+    affiliation: "University of Trento (DISI)"
+    talk: "Towards Context-Aware Conversational AI"
+    date: "2026-03-26"
+    image: /assets/img/Mahed.jpeg
+    linkedin: https://www.linkedin.com/in/mahedmousavi/
 
 speakers:
   # Past invited speakers — add one entry per session

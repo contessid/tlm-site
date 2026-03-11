@@ -9,7 +9,7 @@ sessions:
   - date: 2026-03-26
     time: "19-21"
     type: talk
-    title: "TBD - LLM advanced"
+    title: "Towards Context-Aware Conversational AI"
     speaker: "Seyed Mahed Mousavi (DISI)"
     paper: ""
     paper_url: ""
@@ -26,7 +26,7 @@ sessions:
   - date: "TBD April"
     # time: "19-21"
     type: talk
-    title: "TBD - prepare dataset for LLM or VLM"
+    title: "TBD - optimization"
     speaker: ""
     paper: ""
     paper_url: ""
@@ -35,7 +35,23 @@ sessions:
   - date: "TBD April"
     # time: "19-21"
     type: lab
-    title: "TBD - prompt engineering and tracking"
+    title: "TBD - optimization"
+    repo_url: ""
+    notes: "Lab topic to be announced"
+
+  - date: "TBD May"
+    # time: "19-21"
+    type: talk
+    title: "TBD - computer vision"
+    speaker: ""
+    paper: ""
+    paper_url: ""
+    notes: "Speaker to be announced"
+
+  - date: "TBD May"
+    # time: "19-21"
+    type: lab
+    title: "TBD - computer vision"
     repo_url: ""
     notes: "Lab topic to be announced"
 

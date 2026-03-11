@@ -11,7 +11,10 @@ permalink: /people/
 {% if site.data.people.next_speakers.size > 0 %}
 
 {% for speaker in site.data.people.next_speakers %}
-<div class="person-card">
+<div class="person-card{% if speaker.image %} person-card--organizer{% endif %}">
+  {% if speaker.image %}
+  <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name | escape }}" class="person-avatar">
+  {% endif %}
   <div class="person-info">
     <h3>{{ speaker.name | escape }}</h3>
     <p class="person-role">{{ speaker.affiliation | escape }}</p>
@@ -19,6 +22,14 @@ permalink: /people/
       {{ speaker.talk | escape }}
       <span class="person-date">{{ speaker.date }}</span>
     </p>
+    <div class="person-links">
+      {% if speaker.github %}
+        <a href="{{ speaker.github | escape }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+      {% endif %}
+      {% if speaker.linkedin %}
+        <a href="{{ speaker.linkedin | escape }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      {% endif %}
+    </div>
   </div>
 </div>
 {% endfor %}
@@ -57,7 +68,10 @@ permalink: /people/
 {% if site.data.people.speakers.size > 0 %}
 
 {% for speaker in site.data.people.speakers %}
-<div class="person-card">
+<div class="person-card{% if speaker.image %} person-card--organizer{% endif %}">
+  {% if speaker.image %}
+  <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name | escape }}" class="person-avatar">
+  {% endif %}
   <div class="person-info">
     <h3>{{ speaker.name | escape }}</h3>
     <p class="person-role">{{ speaker.affiliation | escape }}</p>
@@ -72,6 +86,14 @@ permalink: /people/
       {% endif %}
       <span class="person-date">{{ speaker.date }}</span>
     </p>
+    <div class="person-links">
+      {% if speaker.github %}
+        <a href="{{ speaker.github | escape }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+      {% endif %}
+      {% if speaker.linkedin %}
+        <a href="{{ speaker.linkedin | escape }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      {% endif %}
+    </div>
   </div>
 </div>
 {% endfor %}

@@ -104,6 +104,20 @@
   border-bottom: none;
 }
 
+.session-table a {
+  color: var(--color-purple, #a855f7);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.session-table a:visited {
+  color: var(--color-purple, #a855f7);
+}
+
+.session-table a:hover {
+  color: var(--accent-hover, #c084fc);
+}
+
 /* --- Type badges --- */
 .badge {
   display: inline-block;
