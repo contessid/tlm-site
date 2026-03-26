@@ -23,17 +23,17 @@ sessions:
     speaker: "Daniele Contessi"
     # notes: "Lab topic to be announced"
 
-  - date: "TBD April"
-    # time: "19-21"
+  - date: 2026-04-16
+    time: "19-21"
     type: talk
     title: "TBD - optimization"
-    speaker: ""
+    speaker: "Carlos Benavides-Riveros (IQM Quantum Computers)"
     paper: ""
     paper_url: ""
-    notes: "Speaker to be announced"
+    notes: ""
 
-  - date: "TBD April"
-    # time: "19-21"
+  - date: 2026-04-16
+    time: "19-21"
     type: lab
     title: "TBD - optimization"
     repo_url: ""

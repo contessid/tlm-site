@@ -8,6 +8,12 @@ next_speakers:
     image: /assets/img/Mahed.jpeg
     linkedin: https://www.linkedin.com/in/mahedmousavi/
 
+  - name: "Carlos Benavides-Riveros"
+    affiliation: "IQM Quantum Computers"
+    talk: "TBD - optimization"
+    date: "2026-04-16"
+    image: /assets/img/Carlos.jpeg
+
 speakers:
   # Past invited speakers — add one entry per session
   # - name: "Jane Smith"
