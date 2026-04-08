@@ -6,52 +6,53 @@
 # type: lab   → hands-on coding session
 
 sessions:
-  - date: 2026-03-26
+  # - date: 2026-03-26
+  #   time: "19-21"
+  #   type: talk
+  #   title: "Towards Context-Aware Conversational AI"
+  #   speaker: "Seyed Mahed Mousavi (DISI)"
+  #   paper: ""
+  #   paper_url: ""
+  #   # notes: "Speaker to be announced"
+
+  # - date: 2026-03-26
+  #   time: "19-21"
+  #   type: lab
+  #   title: "LLM Lego: playing in the embeddings space"
+  #   repo_url: "https://github.com/tlm-journalclub-org/LLMlego"
+  #   speaker: "Daniele Contessi"
+  #   # notes: "Lab topic to be announced"
+
+  - date: 2026-04-16
     time: "19-21"
     type: talk
-    title: "Towards Context-Aware Conversational AI"
-    speaker: "Seyed Mahed Mousavi (DISI)"
+    title: "A Quantum framework for enhancing Simulated Annealing in Optimization"
+    speaker: "Carlos Benavides-Riveros (IQM Quantum Computers)"
+    paper: ""
+    paper_url: ""
+    # notes: ""
+
+  - date: 2026-04-16
+    time: "19-21"
+    type: lab
+    title: "Basics of Optimization"
+    speaker: "Piero Luchi (Fluiddata)"
+    repo_url: ""
+    # notes: "Lab topic to be announced"
+
+  - date: 2026-05-28
+    time: "19-21"
+    type: talk
+    title: "Multimodal Learning: advancing vision with language"
+    speaker: "Davide Talon (FBK)"
     paper: ""
     paper_url: ""
     # notes: "Speaker to be announced"
 
-  - date: 2026-03-26
+  - date: 2026-05-28
     time: "19-21"
     type: lab
-    title: "LLM Lego: playing in the embeddings space"
-    repo_url: "https://github.com/tlm-journalclub-org/LLMlego"
-    speaker: "Daniele Contessi"
-    # notes: "Lab topic to be announced"
-
-  - date: 2026-04-16
-    time: "19-21"
-    type: talk
-    title: "TBD - optimization"
-    speaker: "Carlos Benavides-Riveros (IQM Quantum Computers)"
-    paper: ""
-    paper_url: ""
-    notes: ""
-
-  - date: 2026-04-16
-    time: "19-21"
-    type: lab
-    title: "TBD - optimization"
-    repo_url: ""
-    notes: "Lab topic to be announced"
-
-  - date: "TBD May"
-    # time: "19-21"
-    type: talk
-    title: "TBD - computer vision"
-    speaker: ""
-    paper: ""
-    paper_url: ""
-    notes: "Speaker to be announced"
-
-  - date: "TBD May"
-    # time: "19-21"
-    type: lab
-    title: "TBD - computer vision"
+    title: "TBD - multimodal learning"
     repo_url: ""
     notes: "Lab topic to be announced"
 

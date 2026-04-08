@@ -1,20 +1,25 @@
 # People involved in TLM - Trento Local Minimum
 next_speakers:
   # Upcoming speakers — move to "speakers" after their session
+  - name: "Carlos Benavides-Riveros"
+    affiliation: "IQM Quantum Computers"
+    talk: "A Quantum framework for enhancing Simulated Annealing in Optimization"
+    date: "2026-04-16"
+    image: /assets/img/Carlos.jpeg
+    linkedin: https://www.linkedin.com/in/carlosbenavidesriveros/
+  - name: "Davide Talon"
+    affiliation: "FBK"
+    talk: "Multimodal Learning: advancing vision with language"
+    date: "2026-05-28"
+    linkedin: https://www.linkedin.com/in/davidetalon/
+
+speakers:
   - name: "Mahed Mousavi"
     affiliation: "University of Trento (DISI)"
     talk: "Towards Context-Aware Conversational AI"
     date: "2026-03-26"
     image: /assets/img/Mahed.jpeg
     linkedin: https://www.linkedin.com/in/mahedmousavi/
-
-  - name: "Carlos Benavides-Riveros"
-    affiliation: "IQM Quantum Computers"
-    talk: "TBD - optimization"
-    date: "2026-04-16"
-    image: /assets/img/Carlos.jpeg
-
-speakers:
   # Past invited speakers — add one entry per session
   # - name: "Jane Smith"
   #   affiliation: "University of Trento"

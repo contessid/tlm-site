@@ -37,13 +37,14 @@ All lab repositories are hosted on the [TLM GitHub organization](https://github.
 
 | Date | Topic | Repository |
 | ---- | ----- | ---------- |
-| Mar 2026 | LLM Lego: playing in the embeddings space | [LLMlego](https://github.com/tlm-journalclub-org/LLMlego) |
+| —    | —     | —          |
 
 ## Past Labs
 
-| Date | Topic | Repository | Best Result |
-| ---- | ----- | ---------- | ----------- |
-| —    | —     | —          | —           |
+| Date     | Topic                                     | Repository                                                |
+| -------- | ----------------------------------------- | --------------------------------------------------------- |
+| Mar 2026 | LLM Lego: playing in the embeddings space | [LLMlego](https://github.com/tlm-journalclub-org/LLMlego) |
+
 
 <!--
 To add a past lab, replace the placeholder row:
