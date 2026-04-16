@@ -37,7 +37,7 @@ sessions:
     type: lab
     title: "Basics of Optimization"
     speaker: "Piero Luchi (Fluiddata)"
-    repo_url: ""
+    repo_url: "https://github.com/tlm-journalclub-org/Optimization"
     # notes: "Lab topic to be announced"
 
   - date: 2026-05-28

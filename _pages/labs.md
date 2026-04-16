@@ -35,9 +35,9 @@ All lab repositories are hosted on the [TLM GitHub organization](https://github.
 
 ## Active Lab
 
-| Date | Topic | Repository |
-| ---- | ----- | ---------- |
-| —    | —     | —          |
+| Date     | Topic                  | Repository                                                          |
+| -------- | ---------------------- | ------------------------------------------------------------------- |
+| Apr 2026 | Basics of Optimization | [Optimization](https://github.com/tlm-journalclub-org/Optimization) |
 
 ## Past Labs
 
