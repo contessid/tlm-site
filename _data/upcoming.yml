@@ -23,23 +23,6 @@ sessions:
   #   speaker: "Daniele Contessi"
   #   # notes: "Lab topic to be announced"
 
-  - date: 2026-04-16
-    time: "19-21"
-    type: talk
-    title: "A Quantum framework for enhancing Simulated Annealing in Optimization"
-    speaker: "Carlos Benavides-Riveros (IQM Quantum Computers)"
-    paper: ""
-    paper_url: ""
-    # notes: ""
-
-  - date: 2026-04-16
-    time: "19-21"
-    type: lab
-    title: "Basics of Optimization"
-    speaker: "Piero Luchi (Fluiddata)"
-    repo_url: "https://github.com/tlm-journalclub-org/Optimization"
-    # notes: "Lab topic to be announced"
-
   - date: 2026-05-28
     time: "19-21"
     type: talk
