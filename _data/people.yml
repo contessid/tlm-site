@@ -7,6 +7,12 @@ next_speakers:
     date: "2026-05-28"
     image: /assets/img/DavideTalon.jpeg
     linkedin: https://www.linkedin.com/in/davidetalon/
+  - name: "Francesco Laiti"
+    affiliation: "Unitn"
+    talk: "Multimodal Learning LAB"
+    date: "2026-05-28"
+    image: /assets/img/francesco.jpeg
+    linkedin: https://www.linkedin.com/in/francesco-laiti/
 
 speakers:
   - name: "Mahed Mousavi"

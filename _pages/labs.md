@@ -35,9 +35,9 @@ All lab repositories are hosted on the [TLM GitHub organization](https://github.
 
 ## Active Lab
 
-| Date     | Topic               | Repository |
-| -------- | ------------------- | ---------- |
-| May 2026 | Multimodal learning | ---        |
+| Date     | Topic               | Repository                                                                       |
+| -------- | ------------------- | -------------------------------------------------------------------------------- |
+| May 2026 | Multimodal learning | [Multimodal Learning](https://github.com/tlm-journalclub-org/MultimodalLearning) |
 
 ## Past Labs
 
