@@ -6,39 +6,12 @@
 # type: lab   → hands-on coding session
 
 sessions:
-  # - date: 2026-03-26
-  #   time: "19-21"
-  #   type: talk
-  #   title: "Towards Context-Aware Conversational AI"
-  #   speaker: "Seyed Mahed Mousavi (DISI)"
-  #   paper: ""
-  #   paper_url: ""
-  #   # notes: "Speaker to be announced"
-
-  # - date: 2026-03-26
-  #   time: "19-21"
-  #   type: lab
-  #   title: "LLM Lego: playing in the embeddings space"
-  #   repo_url: "https://github.com/tlm-journalclub-org/LLMlego"
-  #   speaker: "Daniele Contessi"
-  #   # notes: "Lab topic to be announced"
-
-  - date: 2026-05-28
-    time: "19-21"
-    type: talk
-    title: "Multimodal Learning: advancing vision with language"
-    speaker: "Davide Talon (FBK)"
-    paper: ""
-    paper_url: ""
-    # notes: "Speaker to be announced"
-
-  - date: 2026-05-28
+  - date: 2026-06-25
     time: "19-21"
     type: lab
-    title: "Multimodal Learning"
-    speaker: "Francesco Laiti (Unitn)"
-    repo_url: "https://github.com/tlm-journalclub-org/MultimodalLearning"
-    # notes: "Lab topic to be announced"
+    title: "Diffusion Models"
+    speaker: "Silvia Vicentini"
+    notes: "Extended lab session (theory + coding)"
 
   # --- Add future sessions below ---
   # - date: 2025-05-08

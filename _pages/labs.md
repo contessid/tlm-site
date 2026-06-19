@@ -35,16 +35,17 @@ All lab repositories are hosted on the [TLM GitHub organization](https://github.
 
 ## Active Lab
 
-| Date     | Topic               | Repository                                                                       |
-| -------- | ------------------- | -------------------------------------------------------------------------------- |
-| May 2026 | Multimodal learning | [Multimodal Learning](https://github.com/tlm-journalclub-org/MultimodalLearning) |
+| Date     | Topic            | Repository |
+| -------- | ---------------- | ---------- |
+| Jun 2026 | Diffusion Models | TBA        |
 
 ## Past Labs
 
-| Date     | Topic                                     | Repository                                                          |
-| -------- | ----------------------------------------- | ------------------------------------------------------------------- |
-| Mar 2026 | LLM Lego: playing in the embeddings space | [LLMlego](https://github.com/tlm-journalclub-org/LLMlego)           |
-| Apr 2026 | Basics of Optimization                    | [Optimization](https://github.com/tlm-journalclub-org/Optimization) |
+| Date     | Topic                                     | Repository                                                                       |
+| -------- | ----------------------------------------- | -------------------------------------------------------------------------------- |
+| Mar 2026 | LLM Lego: playing in the embeddings space | [LLMlego](https://github.com/tlm-journalclub-org/LLMlego)                        |
+| Apr 2026 | Basics of Optimization                    | [Optimization](https://github.com/tlm-journalclub-org/Optimization)              |
+| May 2026 | Multimodal Learning                       | [Multimodal Learning](https://github.com/tlm-journalclub-org/MultimodalLearning) |
 
 
 

@@ -1,6 +1,13 @@
 # People involved in TLM - Trento Local Minimum
 next_speakers:
   # Upcoming speakers — move to "speakers" after their session
+  - name: "Silvia Vicentini"
+    affiliation: "Mindicity"
+    talk: "Diffusion Models LAB"
+    image: /assets/img/silvia.png
+    date: "2026-06-25"
+
+speakers:
   - name: "Davide Talon"
     affiliation: "FBK"
     talk: "Multimodal Learning: advancing vision with language"
@@ -13,20 +20,18 @@ next_speakers:
     date: "2026-05-28"
     image: /assets/img/francesco.jpeg
     linkedin: https://www.linkedin.com/in/francesco-laiti/
-
-speakers:
-  - name: "Mahed Mousavi"
-    affiliation: "University of Trento (DISI)"
-    talk: "Towards Context-Aware Conversational AI"
-    date: "2026-03-26"
-    image: /assets/img/Mahed.jpeg
-    linkedin: https://www.linkedin.com/in/mahedmousavi/
   - name: "Carlos Benavides-Riveros"
     affiliation: "IQM Quantum Computers"
     talk: "A Quantum framework for enhancing Simulated Annealing in Optimization"
     date: "2026-04-16"
     image: /assets/img/Carlos.jpeg
     linkedin: https://www.linkedin.com/in/carlosbenavidesriveros/
+  - name: "Mahed Mousavi"
+    affiliation: "University of Trento (DISI)"
+    talk: "Towards Context-Aware Conversational AI"
+    date: "2026-03-26"
+    image: /assets/img/Mahed.jpeg
+    linkedin: https://www.linkedin.com/in/mahedmousavi/
   # Past invited speakers — add one entry per session
   # - name: "Jane Smith"
   #   affiliation: "University of Trento"
