@@ -11,6 +11,7 @@ sessions:
     type: lab
     title: "Diffusion Models"
     speaker: "Silvia Vicentini"
+    repo_url: "https://github.com/tlm-journalclub-org/diffusion-models-tlm"
     notes: "Extended lab session (theory + coding)"
 
   # --- Add future sessions below ---

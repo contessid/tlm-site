@@ -37,7 +37,7 @@ All lab repositories are hosted on the [TLM GitHub organization](https://github.
 
 | Date     | Topic            | Repository |
 | -------- | ---------------- | ---------- |
-| Jun 2026 | Diffusion Models | TBA        |
+| Jun 2026 | Diffusion Models | [Diffusion Models](https://github.com/tlm-journalclub-org/diffusion-models-tlm) |
 
 ## Past Labs
 
